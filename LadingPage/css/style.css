@@ -134,7 +134,7 @@ section {
 }
 
 header {
-    background-image: linear-gradient(to right top, rgba(2,33,64, 0.9) 40%, rgba(30,66,88,0.3)), url(/LadingPage/pictures/header/background-header.png);
+    background-image: linear-gradient(to right top, rgba(2,33,64, 0.9) 40%, rgba(30,66,88,0.3)), url(/langdingpage/LadingPage/pictures/header/background-header.png);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -347,7 +347,7 @@ header {
 /* ----------------------------------- */
 .product-section {
     background-color: #ffffff;
-    background-image: linear-gradient(to right top, rgba(2,33,64, 0.9) 40%, rgba(30,66,88,0.3)), url(/LadingPage/pictures/section/product/background.png);
+    background-image: linear-gradient(to right top, rgba(2,33,64, 0.9) 40%, rgba(30,66,88,0.3)), url(/langdingpage/LadingPage/pictures/section/product/background.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -504,7 +504,7 @@ header {
 /* --------TESTIMONIALS SECTION------- */
 /* ----------------------------------- */
 .testimonials-section {
-    background-image: linear-gradient(to right top, rgba(2,33,64, 0.9) 40%, rgba(30,66,88,0.3)), url(/LadingPage/pictures/section/testimonials/background.jpg);
+    background-image: linear-gradient(to right top, rgba(2,33,64, 0.9) 40%, rgba(30,66,88,0.3)), url(/langdingpage/LadingPage/pictures/section/testimonials/background.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -590,7 +590,7 @@ figcaption {
 /* ----------CONTACT SECTION--------- */
 /* ----------------------------------- */
 .contact-section {
-    background-image: linear-gradient(to right top, rgba(2,33,64, 0.9) 40%, rgba(30,66,88,0.3)), url(/LadingPage/pictures/section/contact/background.png);
+    background-image: linear-gradient(to right top, rgba(2,33,64, 0.9) 40%, rgba(30,66,88,0.3)), url(/langdingpage/LadingPage/pictures/section/contact/background.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
