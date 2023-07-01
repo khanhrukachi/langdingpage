@@ -1,0 +1,300 @@
+/* Big tablet t0 1200px */
+@media only screen and (max-width: 1200px){
+    html {
+        font-size: 16px;
+    }
+
+    .heading-main-box {
+        transform: translate(-80%, -55%);
+        margin-top: 20px;
+    }
+
+    .sponsors-showcase {
+        margin-left: 5%;
+    }
+}
+
+/* Small tablet to big tablet from 768px to 1023px */
+@media only screen and (max-width: 1023px){
+    .logo {
+        width: 300px;
+        margin-left: 40px;
+    }
+
+    .main-nav {
+        margin-right: 15px;
+        margin-top: 55px;
+    }
+
+    .main-nav li {
+        margin-right: 10px;
+    }
+
+    h1{
+        font-size: 190%;
+    }
+
+    .heading-main-box {
+        transform: translate(-80%, -55%);
+        margin-top: 50px;
+    }
+
+    .social-icons li {
+        margin-left: 10px;
+    }
+
+    form {
+        width: 75%;
+        margin-left: 23%;
+    }
+
+    input[type=submit] {
+        margin-top: 10px;
+        margin-left: -5%;
+        width: 70%;
+    }
+    
+    input[type=text], textarea {
+        width: 150%;
+        margin-left: -55%;
+    } 
+
+    label {
+        margin-left: 35%;
+        display: none;
+    }
+
+    .information li {
+        font-size: 13px;
+        width: 120%;
+    }
+}
+
+/* Small phone to small tablet */
+@media only screen and (max-width: 767px){
+    section {
+        padding-top: 50px;
+        padding-left: 55px;
+        padding-top: 50px;
+        padding-right: 50px;
+    }
+
+    .mobile-nav-icon {
+        display: block;
+    }
+
+    .main-nav {
+        display: none;
+        padding-top: 0px;
+    }
+
+    .sticky .main-nav {
+        display: none;
+        padding-top: 70px;
+    }
+
+    .sticky .main-nav li {
+        padding-bottom: 30px;
+    }
+
+    .col {
+        width: 100%;
+    }
+
+    .logo {
+        margin-left: 10%;
+    }
+
+    h1 {
+        word-spacing: 2px;
+        font-size: 350%;
+        line-height: 120%;
+    }
+
+    h2 {
+        font-size: 150%;
+    }
+
+    .p-long {
+        font-size: 18px;
+    }
+
+    .heading-main-box {
+        transform: translate(-60%, -55%);
+    }
+    
+    .btn-conteiner {
+        margin-top: 10px;
+    }
+
+    .about-picture {
+        text-align: center;
+    }
+
+    .about-picture img {
+        width: 100%;
+    }
+
+    .picture-title {
+        font-size: 50px;
+        left: 55%;
+    }
+
+    .testimonials-section .row .col{
+        margin-bottom: 50px;
+    }
+
+    figcaption {
+        visibility: hidden;
+    }
+
+    form {
+        width: 92%;
+        margin-left: 0;
+    }
+
+    input[type=submit] {
+        margin-top: 10px;
+        margin-left: -6%;
+    }
+    
+    input[type=text], textarea {
+        width: 100%;
+        margin-left: 5%;
+    } 
+    
+    input[type=text], textarea {
+        width: 80%;
+    } 
+
+    label {
+        margin-left: 35%;
+        display: none;
+    }
+
+    .information {
+        width: 100%;
+        margin-top: 20px;
+        text-align: center;
+        margin-left: -12%;
+    }
+
+    .information i {
+        display: block;
+    }
+
+    .information li {
+        font-size: 20px;
+    }
+
+    .social-icons {
+        text-align: center;
+        margin-left: -1%;
+    }
+
+    .social-icons li {
+        font-size: 60px;
+        margin-bottom: 20px;
+        padding-right: 10px;
+        margin-left: 0;
+    }
+
+    .logo-sponsors {
+        width: 90px;
+    }
+
+    /* .sponsors-showcase {
+        margin-left: 35px;
+    } */
+}
+
+@media only screen and (max-width: 546px){
+    .sticky .main-nav {
+        margin-top: 0px;
+    }
+
+    .sticky .mobile-nav-icon {
+        top: 10px;
+    }
+}
+
+/* Small phone from 0 to 480px */
+@media only screen and (max-width: 480px){
+    html {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 300%;
+    }
+
+    h2 {
+        font-size: 120%;
+    }
+
+    .row {
+        margin-left: 0px;
+    }
+
+    .logo {
+        width: 150px;
+        height:70px;
+    }
+
+    .sticky .main-nav {
+        margin-top: 0px;
+    }
+
+    .mobile-nav-icon {
+        font-size: 290%;
+    }
+
+    .heading-main-box {
+        transform: translate(-65%, -50%);
+    }
+
+    .logo-sponsors {
+        width: 50px;
+    }
+
+    .information li {
+        font-size: 14px;
+    }
+
+    .social-icons li {
+        font-size: 35px;
+        padding-right: 5px;
+    }
+
+    .title-product {
+        font-size: 20px;
+    }
+
+    .prev-button,
+    .next-button{
+        font-size: 15px;
+        padding: 5px 10px;
+    }
+
+    form {
+        width: 98%;
+    }
+
+    input[type=submit] {
+        margin-left: 2%;
+        width: 80%;
+    }
+
+    input[type=text], textarea {
+        width: 90%;
+    }
+
+    .about-picture img {
+        margin-top: 20px;
+    }
+
+    .picture-title {
+        font-size: 25px;
+        left: 55%;
+    }
+}
